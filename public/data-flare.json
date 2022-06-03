@@ -1,0 +1,1203 @@
+{"name": "zeegu_api", "children": [{
+    "name": "tools",
+    "children": [
+      {
+        "name": "migrations",
+        "children": [
+          {
+            "name": "teacher_dashboard_migration_1",
+            "children": [
+              {
+                "name": "downgrade.py",
+                "size": 1
+              },
+              {
+                "name": "upgrade.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "add_broken_column.sql",
+            "size": 1
+          },
+          {
+            "name": "add_icon_name_to_rss_feed.py",
+            "size": 1
+          },
+          {
+            "name": "fix_text_duplications.py",
+            "size": 1
+          },
+          {
+            "name": "migrate_passwords.py",
+            "size": 1
+          },
+          {
+            "name": "redo_hash.py",
+            "size": 1
+          },
+          {
+            "name": "towards_single_translation.py",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "sh",
+        "children": [
+          {
+            "name": "create_test_db.sh",
+            "size": 1
+          },
+          {
+            "name": "live-log.sh",
+            "size": 1
+          },
+          {
+            "name": "live_show_exercise_outcomes.sh",
+            "size": 1
+          },
+          {
+            "name": "run_tests.sh",
+            "size": 1
+          },
+          {
+            "name": "update_dock.sh",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "sql",
+        "children": [
+          {
+            "name": "exercise_corectness.sql",
+            "size": 1
+          },
+          {
+            "name": "history_of_bookmark.sql",
+            "size": 1
+          },
+          {
+            "name": "most_active_users_in_the_last_year.sql",
+            "size": 1
+          },
+          {
+            "name": "most_recent_active_teachers.sql",
+            "size": 1
+          },
+          {
+            "name": "popular_exercise_outcomes.sql",
+            "size": 1
+          },
+          {
+            "name": "recent_exercise_outcomes.sql",
+            "size": 1
+          },
+          {
+            "name": "teacher-for-cohort.sql",
+            "size": 1
+          },
+          {
+            "name": "users_last_active_in_cohort.sql",
+            "size": 1
+          },
+          {
+            "name": "user_exercise_history.sql",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "vis",
+        "children": [
+          {
+            "name": "generate-matrix-vis.py",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "activity_monitor.py",
+        "size": 1
+      },
+      {
+        "name": "add_all_cohorts_to_teacher.py",
+        "size": 1
+      },
+      {
+        "name": "add_articles_to_elasticsearch.py",
+        "size": 1
+      },
+      {
+        "name": "add_article_id_to_text.py",
+        "size": 1
+      },
+      {
+        "name": "add_rssfeed.py",
+        "size": 1
+      },
+      {
+        "name": "add_standard_topics.py",
+        "size": 1
+      },
+      {
+        "name": "add_word_rank.py",
+        "size": 1
+      },
+      {
+        "name": "anonimize_users.py",
+        "size": 1
+      },
+      {
+        "name": "article_crawler.py",
+        "size": 1
+      },
+      {
+        "name": "article_recommendations.py",
+        "size": 1
+      },
+      {
+        "name": "bookmark_info.py",
+        "size": 1
+      },
+      {
+        "name": "bookmark_priorities_for_user.py",
+        "size": 1
+      },
+      {
+        "name": "cleanup_non_content_bits.py",
+        "size": 1
+      },
+      {
+        "name": "consolidate_accounts.py",
+        "size": 1
+      },
+      {
+        "name": "del_dev_users.py",
+        "size": 1
+      },
+      {
+        "name": "exercise_analysis.py",
+        "size": 1
+      },
+      {
+        "name": "feed_info.py",
+        "size": 1
+      },
+      {
+        "name": "feed_retrieval.py",
+        "size": 1
+      },
+      {
+        "name": "fill_historical_exercise_sessions.py",
+        "size": 1
+      },
+      {
+        "name": "fill_historical_reading_sessions.py",
+        "size": 1
+      },
+      {
+        "name": "find_broken_articles.py",
+        "size": 1
+      },
+      {
+        "name": "fix_bookmark_learned_status.py",
+        "size": 1
+      },
+      {
+        "name": "fix_bookmark_priorities.py",
+        "size": 1
+      },
+      {
+        "name": "flatten_unicode_characters.py",
+        "size": 1
+      },
+      {
+        "name": "forget_user.py",
+        "size": 1
+      },
+      {
+        "name": "learner_level.py",
+        "size": 1
+      },
+      {
+        "name": "map_article_words.py",
+        "size": 1
+      },
+      {
+        "name": "migrate_starredarticle_2_userarticle.py",
+        "size": 1
+      },
+      {
+        "name": "mysql_to_elastic.py",
+        "size": 1
+      },
+      {
+        "name": "past_exercises_for_user.py",
+        "size": 1
+      },
+      {
+        "name": "recompute_fk_difficulties_for_polish.py",
+        "size": 1
+      },
+      {
+        "name": "recompute_reading_session_after_id.py",
+        "size": 1
+      },
+      {
+        "name": "recompute_recommender_cache.py",
+        "size": 1
+      },
+      {
+        "name": "remove_text_duplicates.py",
+        "size": 1
+      },
+      {
+        "name": "remove_unreferenced_articles.py",
+        "size": 1
+      },
+      {
+        "name": "saturate_word_interaction_history.py",
+        "size": 1
+      },
+      {
+        "name": "tag_existing_articles.py",
+        "size": 1
+      },
+      {
+        "name": "tag_topics_in_danish.py",
+        "size": 1
+      },
+      {
+        "name": "update_feed.py",
+        "size": 1
+      },
+      {
+        "name": "update_particular_tag.py",
+        "size": 1
+      },
+      {
+        "name": "users_recently_active.py",
+        "size": 1
+      },
+      {
+        "name": "_playground.py",
+        "size": 1
+      },
+      {
+        "name": "__init__.py",
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "zeeguu",
+    "children": [
+      {
+        "name": "api",
+        "children": [
+          {
+            "name": "api",
+            "children": [
+              {
+                "name": "teacher_dashboard",
+                "children": [
+                  {
+                    "name": "article_management.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "cohorts.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "general.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "helpers.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "student.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "student_exercises.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "student_overviews.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "student_readings.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "student_words.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "_common_api_parameters.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "_only_teachers_decorator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "_permissions.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "utils",
+                "children": [
+                  {
+                    "name": "abort_handling.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "feedparser_extensions.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "json_result.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "route_wrappers.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "accounts.py",
+                "size": 1
+              },
+              {
+                "name": "activity_tracking.py",
+                "size": 1
+              },
+              {
+                "name": "article.py",
+                "size": 1
+              },
+              {
+                "name": "bookmarks_and_words.py",
+                "size": 1
+              },
+              {
+                "name": "exercises.py",
+                "size": 1
+              },
+              {
+                "name": "feature_toggles.py",
+                "size": 1
+              },
+              {
+                "name": "own_texts.py",
+                "size": 1
+              },
+              {
+                "name": "recommendations.py",
+                "size": 1
+              },
+              {
+                "name": "search.py",
+                "size": 1
+              },
+              {
+                "name": "sessions.py",
+                "size": 1
+              },
+              {
+                "name": "smartwatch.py",
+                "size": 1
+              },
+              {
+                "name": "speech.py",
+                "size": 1
+              },
+              {
+                "name": "student.py",
+                "size": 1
+              },
+              {
+                "name": "system_languages.py",
+                "size": 1
+              },
+              {
+                "name": "topics.py",
+                "size": 1
+              },
+              {
+                "name": "translation.py",
+                "size": 1
+              },
+              {
+                "name": "translator.py",
+                "size": 1
+              },
+              {
+                "name": "user.py",
+                "size": 1
+              },
+              {
+                "name": "user_article.py",
+                "size": 1
+              },
+              {
+                "name": "user_articles.py",
+                "size": 1
+              },
+              {
+                "name": "user_languages.py",
+                "size": 1
+              },
+              {
+                "name": "user_statistics.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "app.py",
+            "size": 1
+          },
+          {
+            "name": "cross_domain_app.py",
+            "size": 1
+          },
+          {
+            "name": "custom_fmd_graphs.py",
+            "size": 1
+          },
+          {
+            "name": "machine_specific.py.example",
+            "size": 1
+          },
+          {
+            "name": "__init__.py",
+            "size": 1
+          },
+          {
+            "name": "__main__.py",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "core",
+        "children": [
+          {
+            "name": "account_management",
+            "children": [
+              {
+                "name": "user_account_creation.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "bookmark_quality",
+            "children": [
+              {
+                "name": "fit_for_study.py",
+                "size": 1
+              },
+              {
+                "name": "negative_qualities.py",
+                "size": 1
+              },
+              {
+                "name": "positive_qualities.py",
+                "size": 1
+              },
+              {
+                "name": "top_bookmarks_for_user.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "configuration",
+            "children": [
+              {
+                "name": "configuration.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "content_recommender",
+            "children": [
+              {
+                "name": "elastic_first_recommender.py",
+                "size": 1
+              },
+              {
+                "name": "elastic_recommender.py",
+                "size": 1
+              },
+              {
+                "name": "mysql_recommender.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "content_retriever",
+            "children": [
+              {
+                "name": "article_downloader.py",
+                "size": 1
+              },
+              {
+                "name": "content_cleaner.py",
+                "size": 1
+              },
+              {
+                "name": "quality_filter.py",
+                "size": 1
+              },
+              {
+                "name": "unicode_normalization.py",
+                "size": 1
+              },
+              {
+                "name": "url_downloader.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "crowd_translations",
+            "children": [
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "definition_of_learned",
+            "children": [
+              {
+                "name": "is_learned.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "elastic",
+            "children": [
+              {
+                "name": "converting_from_mysql.py",
+                "size": 1
+              },
+              {
+                "name": "elastic_query_builder.py",
+                "size": 1
+              },
+              {
+                "name": "settings.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "emailer",
+            "children": [
+              {
+                "name": "password_reset.py",
+                "size": 1
+              },
+              {
+                "name": "user_activity.py",
+                "size": 1
+              },
+              {
+                "name": "zeeguu_mailer.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "exercises",
+            "children": [
+              {
+                "name": "similar_words.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "language",
+            "children": [
+              {
+                "name": "strategies",
+                "children": [
+                  {
+                    "name": "cognacy_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "cognacy_wh_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "default_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "flesch_kincaid_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "frequency_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "word_history_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "word_rank_difficulty_estimator.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "difficulty_estimator_factory.py",
+                "size": 1
+              },
+              {
+                "name": "difficulty_estimator_strategy.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "model",
+            "children": [
+              {
+                "name": "learner_stats",
+                "children": [
+                  {
+                    "name": "exercise_stats.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "learner_stats.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "smartwatch",
+                "children": [
+                  {
+                    "name": "watch_event_type.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "watch_interaction_event.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "word_knowledge",
+                "children": [
+                  {
+                    "name": "word_interaction_history.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "article.py",
+                "size": 1
+              },
+              {
+                "name": "articles_cache.py",
+                "size": 1
+              },
+              {
+                "name": "article_word.py",
+                "size": 1
+              },
+              {
+                "name": "bookmark.py",
+                "size": 1
+              },
+              {
+                "name": "bookmark_priority_arts.py",
+                "size": 1
+              },
+              {
+                "name": "cohort.py",
+                "size": 1
+              },
+              {
+                "name": "cohort_article_map.py",
+                "size": 1
+              },
+              {
+                "name": "domain_name.py",
+                "size": 1
+              },
+              {
+                "name": "exercise.py",
+                "size": 1
+              },
+              {
+                "name": "exercise_outcome.py",
+                "size": 1
+              },
+              {
+                "name": "exercise_source.py",
+                "size": 1
+              },
+              {
+                "name": "feed.py",
+                "size": 1
+              },
+              {
+                "name": "language.py",
+                "size": 1
+              },
+              {
+                "name": "localized_topic.py",
+                "size": 1
+              },
+              {
+                "name": "personal_copy.py",
+                "size": 1
+              },
+              {
+                "name": "search.py",
+                "size": 1
+              },
+              {
+                "name": "search_filter.py",
+                "size": 1
+              },
+              {
+                "name": "search_subscription.py",
+                "size": 1
+              },
+              {
+                "name": "session.py",
+                "size": 1
+              },
+              {
+                "name": "SortedExerciseLog.py",
+                "size": 1
+              },
+              {
+                "name": "starred_article.py",
+                "size": 1
+              },
+              {
+                "name": "teacher.py",
+                "size": 1
+              },
+              {
+                "name": "teacher_cohort_map.py",
+                "size": 1
+              },
+              {
+                "name": "text.py",
+                "size": 1
+              },
+              {
+                "name": "topic.py",
+                "size": 1
+              },
+              {
+                "name": "topic_filter.py",
+                "size": 1
+              },
+              {
+                "name": "topic_subscription.py",
+                "size": 1
+              },
+              {
+                "name": "unique_code.py",
+                "size": 1
+              },
+              {
+                "name": "url.py",
+                "size": 1
+              },
+              {
+                "name": "user.py",
+                "size": 1
+              },
+              {
+                "name": "user_activitiy_data.py",
+                "size": 1
+              },
+              {
+                "name": "user_article.py",
+                "size": 1
+              },
+              {
+                "name": "user_exercise_session.py",
+                "size": 1
+              },
+              {
+                "name": "user_language.py",
+                "size": 1
+              },
+              {
+                "name": "user_preference.py",
+                "size": 1
+              },
+              {
+                "name": "user_reading_session.py",
+                "size": 1
+              },
+              {
+                "name": "user_word.py",
+                "size": 1
+              },
+              {
+                "name": "word_to_study.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "sql",
+            "children": [
+              {
+                "name": "learner",
+                "children": [
+                  {
+                    "name": "exercises_history.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "words.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "queries",
+                "children": [
+                  {
+                    "name": "query_loader.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "words_to_study.sql",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "teacher",
+                "children": [
+                  {
+                    "name": "teachers_for_cohort.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "query_building.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "user_activity_hooks",
+            "children": [
+              {
+                "name": "article_interaction_hooks.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "user_statistics",
+            "children": [
+              {
+                "name": "activity.py",
+                "size": 1
+              },
+              {
+                "name": "exercise_corectness.py",
+                "size": 1
+              },
+              {
+                "name": "exercise_sessions.py",
+                "size": 1
+              },
+              {
+                "name": "reading_sessions.py",
+                "size": 1
+              },
+              {
+                "name": "student_overview.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "util",
+            "children": [
+              {
+                "name": "encoding.py",
+                "size": 1
+              },
+              {
+                "name": "hash.py",
+                "size": 1
+              },
+              {
+                "name": "text.py",
+                "size": 1
+              },
+              {
+                "name": "timer_logging_decorator.py",
+                "size": 1
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "word_scheduling",
+            "children": [
+              {
+                "name": "adaptive",
+                "children": [
+                  {
+                    "name": "scheduling_algo.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "arts",
+                "children": [
+                  {
+                    "name": "analysis",
+                    "children": [
+                      {
+                        "name": "normal_distribution.py",
+                        "size": 1
+                      },
+                      {
+                        "name": "__init__.py",
+                        "size": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "experiments",
+                    "children": [
+                      {
+                        "name": "arts_diff_fast.py",
+                        "size": 1
+                      },
+                      {
+                        "name": "arts_diff_slow.py",
+                        "size": 1
+                      },
+                      {
+                        "name": "arts_random.py",
+                        "size": 1
+                      },
+                      {
+                        "name": "__init__.py",
+                        "size": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tools",
+                    "children": [
+                      {
+                        "name": "algo_parameter_approximator.py",
+                        "size": 1
+                      },
+                      {
+                        "name": "__init__.py",
+                        "size": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ab_testing.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "algorithm_wrapper.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "arts_base.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "arts_rt.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "bookmark_priority_updater.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "words_to_study.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "basicSR",
+                "children": [
+                  {
+                    "name": "basicSR.py",
+                    "size": 1
+                  },
+                  {
+                    "name": "__init__.py",
+                    "size": 1
+                  }
+                ]
+              },
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "word_stats",
+            "children": [
+              {
+                "name": "__init__.py",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "name": "constants.py",
+            "size": 1
+          },
+          {
+            "name": "__init__.py",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "name": "__init__.py",
+        "size": 1
+      }
+    ]
+}]}
